@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/carland/static/css/main.798c67c9.css",
+    "main.js": "/carland/static/js/main.329585f2.js",
+    "static/js/787.d7426941.chunk.js": "/carland/static/js/787.d7426941.chunk.js",
+    "static/media/VW-car.png": "/carland/static/media/VW-car.506c1b87f69dd63912b7.png",
+    "static/media/Rectangle 1.png": "/carland/static/media/Rectangle 1.b44f4e5baa73e94dedd9.png",
+    "static/media/discovercars.svg": "/carland/static/media/discovercars.014f78c1ec3193448acc232fc04bf45c.svg",
+    "index.html": "/carland/index.html",
+    "main.798c67c9.css.map": "/carland/static/css/main.798c67c9.css.map",
+    "main.329585f2.js.map": "/carland/static/js/main.329585f2.js.map",
+    "787.d7426941.chunk.js.map": "/carland/static/js/787.d7426941.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.798c67c9.css",
+    "static/js/main.329585f2.js"
+  ]
+}
