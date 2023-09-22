@@ -18,14 +18,18 @@ const Options = () => {
         </div>
 
         <div className="items">
-          <a href="https://www.google.com/" rel="noopener" target="_blank">
+          <a
+            href="https://lindanimags.github.io/popp//"
+            rel="noopener"
+            target="_blank"
+          >
             <div className="item">
               <RiShieldUserLine className="opt-icons" />
               <h2>Travel insurance</h2>
             </div>
           </a>
           <a
-            href="https://lindanimags.github.io/carland/"
+            href="https://lindanimags.github.io/popp/"
             rel="noopener"
             target="_blank"
           >
