@@ -10,6 +10,7 @@ import { PiGasPumpLight } from "react-icons/pi";
 import { FaGasPump } from "react-icons/fa";
 import { FaLocationDot } from "react-icons/fa6";
 import { FcApproval } from "react-icons/fc";
+import { Link } from "react-router-dom";
 
 function App() {
   const [isOpen, setIsOpen] = useState(false);
@@ -241,13 +242,15 @@ function App() {
               </div>
             </div>
           </div>
-          <button
-            className="submit book-now"
-            onClick={togglePopup}
-            type="button"
-          >
-            Book Now
-          </button>
+          <Link to="/processing">
+            <button
+              className="submit book-now"
+              onClick={togglePopup}
+              type="button"
+            >
+              Book Now
+            </button>
+          </Link>
         </div>
       </div>
 

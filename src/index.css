@@ -321,6 +321,9 @@ button:hover {
   text-align: center;
   gap: 40px;
 }
+.data-con {
+  align-self: flex-start;
+}
 .data {
   display: flex;
   gap: 20px;
@@ -418,6 +421,7 @@ input {
 .popup {
   position: fixed;
   display: flex;
+  overflow-y: scroll;
   flex-direction: column;
   align-items: center;
   top: 5%;

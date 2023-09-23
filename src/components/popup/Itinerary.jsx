@@ -4,7 +4,8 @@ import { Link } from "react-router-dom";
 import { BsThreeDotsVertical } from "react-icons/bs";
 import mail from "./images/mail.png";
 import whatsapp from "./images/whatsapp.png";
-import hotel1 from "./images/hotel1.png";
+import hotel1 from "./images/airbnb.png";
+import discover from "./images/discovercars.svg";
 
 const Itinerary = () => {
   return (
@@ -53,8 +54,56 @@ const Itinerary = () => {
                 </div>
               </div>
             </div>
+            <div className="partner-logo" style={{ display: "flex" }}>
+              <img src={hotel1} alt="icon" style={{ height: "36px" }} />
+              <h3 style={{ color: "pink" }}>airbnb</h3>
+            </div>
+          </div>
+        </div>
+        <div className="data-con">
+          <div className="header">
+            <h2>Day 2</h2>
+            <h3>13 December 2023, Tuesday</h3>
+          </div>
+          <div className="data">
+            <div className="time-con">
+              <p>10:00 am</p>
+              <div className="service-con">
+                <div className="service-icon">
+                  <LuBedDouble />
+                </div>
+                <div className="dots">
+                  <div className="dot">
+                    <BsThreeDotsVertical />
+                  </div>
+                  <div className="dot">
+                    <BsThreeDotsVertical />
+                  </div>
+                  <div className="dot">
+                    <BsThreeDotsVertical />
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div className="check-in">
+              <p>Pick-up at Pretoria, Carland Rentals</p>
+              <div className="check-in-details">
+                <div className="check-data">
+                  <p>Seats </p>
+                  <p>4</p>
+                </div>
+                <div className="check-data">
+                  <p>Bags</p>
+                  <p>1</p>
+                </div>
+                <div className="check-data">
+                  <p>Doors</p>
+                  <p>5</p>
+                </div>
+              </div>
+            </div>
             <div className="partner-logo">
-              <img src={hotel1} alt="icon" />
+              <img src={discover} alt="icon" />
             </div>
           </div>
         </div>
